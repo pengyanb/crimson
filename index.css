@@ -1,0 +1,32 @@
+body{
+    background: black;
+}
+.mynavbar{
+    background: #60E8F7;
+}
+.mynavpills{
+    text-align: center;
+}
+.mynavpills > li{
+    float: none;
+    display: inline-block;;
+}
+
+.mynavbar a{
+    color: white;
+}
+
+.tile-container {
+    padding-top: 80px;
+}
+.tile-container .row{
+    padding-bottom: 10px;
+}
+.tile-container img{
+    width: 100%;
+}
+.tile-container img:hover{
+    cursor: pointer;
+    opacity: 0.2;
+    transition: opacity 0.5s ease-in-out;
+}
